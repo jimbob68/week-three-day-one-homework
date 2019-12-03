@@ -81,4 +81,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '19:3
 
 -- ##Extention
 -- #1
-DELETE FROM movies WHERE title = 'Iron Man, Iron man 2, Iron Man';
+-- DELETE FROM movies WHERE year = 2017;
+
+--
+
+-- DELETE FROM movies WHERE year = 2017 RETURNING *;
